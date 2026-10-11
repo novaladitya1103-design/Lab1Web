@@ -90,3 +90,216 @@
 </body>
 </html>
 
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Lanjutan</title>
+</head>
+<body>
+
+    <!-- Langkah 1: Membuat Tabel Data Mahasiswa -->
+    <h1>Data Mahasiswa</h1>
+
+    <table border="1">
+        <tr>
+            <th>NIM</th>
+            <th>Nama</th>
+            <th>Program Studi</th>
+        </tr>
+        <tr>
+            <td>312510011</td>
+            <td>Noval Aditya</td>
+            <td>Teknik Informatika</td>
+        </tr>
+        <tr>
+            <td>312510012</td>
+            <td>Fernandes</td>
+            <td>Teknik Informatika</td>
+        </tr>
+        <tr>
+            <td>312510013</td>
+            <td>Sutaim</td>
+            <td>Teknik Informatika</td>
+        </tr>
+        <tr>
+            <td>312510014</td>
+            <td>Alif Wahyu</td>
+            <td>Teknik Informatika</td>
+        </tr>
+        <tr>
+            <td>31251005</td>
+            <td>Luhur</td>
+            <td>Teknik Informatika</td>
+        </tr>
+    </table>
+
+    <!-- Langkah 2: Tabel Nilai Praktikum -->
+    <h1>Nilai Praktikum</h1>
+
+    <table border="1">
+        <caption>Nilai Praktikum</caption>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>Nilai</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Noval Aditya</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Fernandes</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Sutaim</td>
+                <td>88</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="2">Rata-rata</td>
+                <td>92.67</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- Langkah 3: Form Registrasi Mahasiswa -->
+    <h1>Form Registrasi Mahasiswa</h1>
+
+    <form>
+        <label for="nama">Nama Lengkap</label><br>
+        <input type="text" id="nama" name="nama" required>
+        <br><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+
+        <label for="tanggal">Tanggal Lahir</label><br>
+        <input type="date" id="tanggal" name="tanggal" required>
+        <br><br>
+
+        <button type="submit">Daftar</button>
+        <button type="reset">Reset</button>
+    </form>
+
+    <!-- Langkah 4: Radio Button dan Checkbox -->
+    <h2>Jenis Kelamin</h2>
+
+    <input type="radio" id="laki" name="jk" value="L">
+    <label for="laki">Laki-laki</label>
+
+    <input type="radio" id="perempuan" name="jk" value="P">
+    <label for="perempuan">Perempuan</label>
+
+    <h2>Keahlian</h2>
+
+    <input type="checkbox" id="html" name="skill" value="HTML">
+    <label for="html">HTML</label>
+
+    <input type="checkbox" id="css" name="skill" value="CSS">
+    <label for="css">CSS</label>
+
+    <input type="checkbox" id="js" name="skill" value="JavaScript">
+    <label for="js">JavaScript</label>
+
+    <!-- Langkah 5: Select dan Textarea -->
+    <h2>Program Studi</h2>
+
+    <label for="prodi">Program Studi</label>
+    <select id="prodi" name="prodi">
+        <option value="">-- Pilih Prodi --</option>
+        <option value="ti">Teknik Informatika</option>
+        <option value="si">Sistem Informasi</option>
+    </select>
+
+    <br><br>
+
+    <label for="alamat">Alamat</label><br>
+    <textarea id="alamat" name="alamat" rows="5" cols="40"></textarea>
+
+    <!-- Langkah 6: Validasi Form Dasar -->
+    <h2>Validasi Form Dasar</h2>
+
+    <form>
+        <label for="nama-validasi">Nama</label><br>
+        <input type="text" id="nama-validasi"
+               name="nama-validasi" required minlength="3">
+        <br><br>
+
+        <label for="email-validasi">Email</label><br>
+        <input type="email" id="email-validasi"
+               name="email-validasi" required>
+        <br><br>
+
+        <label for="umur">Umur</label><br>
+        <input type="number" id="umur"
+               name="umur" min="17" max="60" required>
+        <br><br>
+
+        <button type="submit">Kirim</button>
+    </form>
+
+    <!-- Langkah 7: Semantic HTML -->
+    <header>
+        <h1>Portal Mahasiswa</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="biodata.html">Biodata</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Informasi Akademik</h2>
+
+            <article>
+                <h3>Praktikum HTML Lanjutan</h3>
+                <p>
+                    Mahasiswa mempelajari tabel, form,
+                    semantic HTML, multimedia, dan validasi.
+                </p>
+            </article>
+        </section>
+
+        <aside>
+            Informasi tambahan mahasiswa.
+        </aside>
+    </main>
+
+    <footer id="kontak">
+        <p>&copy; 2026 Teknik Informatika</p>
+    </footer>
+
+    <!-- Langkah 8: Menambahkan Multimedia -->
+    <h2>Audio</h2>
+<audio controls>
+    <source src="media/audio.mpeg" type="audio/mpeg">
+    Browser tidak mendukung audio.
+</audio>
+
+    <h2>Video</h2>
+<video controls width="480">
+    <source src="media/video.mp4" type="video/mp4">
+    Browser tidak mendukung video.
+</video>
+
+</body>
+</html>
