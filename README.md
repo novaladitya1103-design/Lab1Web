@@ -45,6 +45,7 @@ Lab1Web/
 │   └── 8.png
 └── README.md
 ```
+---
 ## Langkah Pengerjaan Selanjutnya
 ## 1. Sturktur Data HTML 
 Membuat file index.html dengan kerangka dokumen HTML5: deklarasi <!DOCTYPE html>, tag <html>, <head> untuk judul tab browser, dan <body> untuk tempat konten diletakkan.
@@ -60,7 +61,9 @@ Membuat file index.html dengan kerangka dokumen HTML5: deklarasi <!DOCTYPE html>
 </html>
 
 ![Screenshot Hasil](./screenshots/1.png)
+```
 
+```
 ## 2. Menambahkan Heading dan Paragraf
 Menambahkan judul utama dengan <h1>, subjudul dengan <h2>, serta teks paragraf menggunakan tag <p>.
 
@@ -79,7 +82,9 @@ Menambahkan judul utama dengan <h1>, subjudul dengan <h2>, serta teks paragraf m
 </p>
 
 ![Screenshot Hasil](./screenshots/2.png)
+```
 
+```
 ## 3. Pemformatan Teks
 Mencoba berbagai tag pemformatan teks di HTML, seperti cetak tebal (<b>, <strong>), miring (<i>, <em>), tanda sorot (<mark>), teks kecil (<small>), teks coret (<del>), teks sisipan (<ins>), serta tulisan indeks bawah (<sub>) dan pangkat (<sup>).
 
@@ -90,14 +95,18 @@ Mencoba berbagai tag pemformatan teks di HTML, seperti cetak tebal (<b>, <strong
 <p>Contoh rumus: H<sub>2</sub>O dan rumus kuadrat x<sup>2</sup> + y<sup>2</sup> = r<sup>2</sup></p>
 
 ![Screenshot Hasil](./screenshots/3.png)
+```
 
+```
 ## 4 & 5. Menyisipkan dan Mengatur Ukuran Gambar
 Menyimpan file foto di folder images/profil.jpg, kemudian menampilkannya menggunakan tag <img> dengan atribut src, alt, title, serta mengatur ukuran lebarnya melalui atribut width.
 <h3>Foto Profil</h3>
 <img src="images/profil.jpg" width="200" height="200" alt="Foto profil mahasiswa" title="Foto Profil Mahasiswa">
 
 ![Screenshot Hasil](./screenshots/4&5.png)
+```
 
+```
 ## 6. Hyperlink dan Halaman Baru (halaman2.html)
 Membuat file baru bernama halaman2.html untuk mempraktikkan navigasi:
 
@@ -118,7 +127,9 @@ Potongan kode navigasi:
 <p><a href="#materi">Klik untuk loncat ke judul materi ini</a></p>
 
 ![Screenshot Hasil](./screenshots/6.png)
+```
 
+```
 ## 7. Menambahkan List (Daftar)
 Mengelompokkan data menggunakan list:
 
@@ -140,7 +151,9 @@ Mengelompokkan data menggunakan list:
 </ol>
 
 ![Screenshot Hasil](./screenshots/7.png)
+```
 
+```
 ## 8. Menambahkan Komentar
 Menambahkan komentar HTML menggunakan format <!-- isi komentar --> sebagai penanda bagian kode agar dokumen rapi dan mudah dibaca saat diedit kembali.
 <!-- Bagian Profil Mahasiswa -->
@@ -151,6 +164,7 @@ Menambahkan komentar HTML menggunakan format <!-- isi komentar --> sebagai penan
     <li>HTML</li>
     <li>CSS</li>
 </ul>
+```
 
 ## 9. Halaman Profil Mahasiswa (Gabungan Semua Elemen)
 Menggabungkan semua elemen yang sudah dipelajari menjadi satu halaman index.html yang utuh.
@@ -165,7 +179,7 @@ Isi lengkap index.html:
     <title>Profil Mahasiswa</title>
 </head>
 <body>
-```
+`
     <!-- Navigasi Halaman -->
     <nav>
         <a href="index.html">Beranda</a> |
@@ -173,7 +187,7 @@ Isi lengkap index.html:
         <a href="https://www.google.com" target="_blank">Website Eksternal (Google)</a>
     </nav>
     <hr>
-```
+`
     <!-- Langkah 2: Judul & Paragraf Dasar -->
     <h1>Belajar Dasar HTML</h1>
     <h2>Paragraf pada HTML</h2>
@@ -226,7 +240,7 @@ Isi lengkap index.html:
         <li>Menguasai navigasi hyperlink internal dan eksternal</li>
         <li>Menguji tampilan halaman di web browser dan validasi W3C</li>
     </ol>
-`
+
     <hr>
     <p><small>&copy; 2026 Praktikum Pemrograman Web - Lab1Web</small></p>
 
