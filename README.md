@@ -45,21 +45,3 @@ Lab1Web/
 │   └── 8.png
 └── README.md
 
-## Langkah Pengerjaan Praktikum
-
-### 1. Struktur Dasar HTML5
-
-Membuat file `index.html` dengan kerangka dokumen HTML5: deklarasi `<!DOCTYPE html>`, tag `<html>`, `<head>` untuk judul tab browser, dan `<body>` untuk tempat konten diletakkan.
-
-```html
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <title>Praktikum HTML Dasar</title>
-</head>
-<body>
-</body>
-</html>
-
-![Deskripsi Gambar](./screenshots/1.png)
