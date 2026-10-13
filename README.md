@@ -27,7 +27,7 @@ Simpan semua file tangkapan layar (screenshot) di dalam folder `screenshots/` de
 | **8.png** | Browser<br>([validator.w3.org](https://validator.w3.org)) | Hasil validasi W3C yang menunjukkan halaman bebas error (hijau). |
 
 ## Struktur Folder
-
+```
 text
 Lab1Web/
 ├── index.html
@@ -44,7 +44,7 @@ Lab1Web/
 │   ├── 7.png
 │   └── 8.png
 └── README.md
-
+```
 ## Langkah Pengerjaan Selanjutnya
 ## 1. Sturktur Data HTML 
 Membuat file index.html dengan kerangka dokumen HTML5: deklarasi <!DOCTYPE html>, tag <html>, <head> untuk judul tab browser, dan <body> untuk tempat konten diletakkan.
