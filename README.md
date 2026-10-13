@@ -44,6 +44,7 @@ Lab1Web/
 │   ├── 7.png
 │   └── 8.png
 └── README.md
+<img width="1917" height="955" alt="1" src="https://github.com/user-attachments/assets/38988d99-8507-4b18-8c4e-9e543324c18b" />
 
 <!DOCTYPE html>
 <html lang="id">
