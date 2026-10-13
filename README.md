@@ -28,7 +28,7 @@ Simpan semua file tangkapan layar (screenshot) di dalam folder `screenshots/` de
 
 ## Struktur Folder
 
-```text
+text
 Lab1Web/
 ├── index.html
 ├── halaman2.html
@@ -44,11 +44,11 @@ Lab1Web/
 │   ├── 7.png
 │   └── 8.png
 └── README.md
-```
+
 ## Langkah Pengerjaan Selanjutnya
 ## 1. Sturktur Data HTML 
 Membuat file index.html dengan kerangka dokumen HTML5: deklarasi <!DOCTYPE html>, tag <html>, <head> untuk judul tab browser, dan <body> untuk tempat konten diletakkan.
-`
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -58,7 +58,7 @@ Membuat file index.html dengan kerangka dokumen HTML5: deklarasi <!DOCTYPE html>
 <body>
 </body>
 </html>
-`
+
 ![Screenshot Hasil](./screenshots/1.png)
 
 ## 2. Menambahkan Heading dan Paragraf
@@ -82,6 +82,7 @@ Menambahkan judul utama dengan <h1>, subjudul dengan <h2>, serta teks paragraf m
 
 ## 3. Pemformatan Teks
 Mencoba berbagai tag pemformatan teks di HTML, seperti cetak tebal (<b>, <strong>), miring (<i>, <em>), tanda sorot (<mark>), teks kecil (<small>), teks coret (<del>), teks sisipan (<ins>), serta tulisan indeks bawah (<sub>) dan pangkat (<sup>).
+
 <p>Belajar <b>HTML dasar</b> pada mata kuliah <i>Pemrograman Web</i>.</p>
 <p>HTML adalah <strong>bahasa markup</strong> untuk membuat halaman web.</p>
 <p>Status: <mark>Mahasiswa Aktif</mark> | Catatan: <small>Semester Gasal</small></p>
