@@ -4,12 +4,12 @@ Repository ini dibuat untuk memenuhi tugas **Praktikum 1 - HTML Dasar** pada mat
 
 Identitas Mahasiswa:
 
-* **Nama:** Noval Aditya Suryawan
-* **NIM:** 312510035
-* **Kelas:** I253B
-* **Program Studi:** Teknik Informatika
-* **Dosen Pengampu:** Sufajar Butsianto, S.Kom, M.Kom
-* **Kampus:** Universitas Pelita Bangsa
+- **Nama:** Noval Aditya Suryawan
+- **NIM:** 312510035
+- **Kelas:** I253B
+- **Program Studi:** Teknik Informatika
+- **Dosen Pengampu:** Sufajar Butsianto, S.Kom, M.Kom
+- **Kampus:** Universitas Pelita Bangsa
 
 ## Panduan Screenshot Tugas
 
@@ -45,13 +45,6 @@ Lab1Web/
 │   └── 8.png
 └── README.md
 
-## Langkah Pengerjaan Praktikum
-
-### 1. Struktur Dasar HTML5
-
-Membuat file `index.html` dengan kerangka dokumen HTML5: deklarasi `<!DOCTYPE html>`, tag `<html>`, `<head>` untuk judul tab browser, dan `<body>` untuk tempat konten diletakkan.
-
-```html
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -62,11 +55,6 @@ Membuat file `index.html` dengan kerangka dokumen HTML5: deklarasi `<!DOCTYPE ht
 </body>
 </html>
 
-### 2. Menambahkan Heading dan Paragraf
-
-Menambahkan judul utama dengan `<h1>`, subjudul dengan `<h2>`, serta teks paragraf menggunakan tag `<p>`.
-
-```html
 <!-- Judul utama dan subjudul -->
 <h1>Belajar Dasar HTML</h1>
 <h2>Paragraf pada HTML</h2>
@@ -81,40 +69,19 @@ Menambahkan judul utama dengan `<h1>`, subjudul dengan `<h2>`, serta teks paragr
     Browser akan menampilkan hasil interpretasi dari dokumen HTML.
 </p>
 
-### 3. Pemformatan Teks
-
-Mencoba berbagai tag pemformatan teks di HTML, seperti cetak tebal (`<b>`, `<strong>`), miring (`<i>`, `<em>`), tanda sorot (`<mark>`), teks kecil (`<small>`), teks coret (`<del>`), teks sisipan (`<ins>`), serta tulisan indeks bawah (`<sub>`) dan pangkat (`<sup>`).
-
-```html
 <p>Belajar <b>HTML dasar</b> pada mata kuliah <i>Pemrograman Web</i>.</p>
 <p>HTML adalah <strong>bahasa markup</strong> untuk membuat halaman web.</p>
 <p>Status: <mark>Mahasiswa Aktif</mark> | Catatan: <small>Semester Gasal</small></p>
 <p>Target: <del>Malas-malasan</del> <ins>Rajin Ngoding</ins></p>
 <p>Contoh rumus: H<sub>2</sub>O dan rumus kuadrat x<sup>2</sup> + y<sup>2</sup> = r<sup>2</sup></p>
 
-### 4 & 5. Menyisipkan dan Mengatur Ukuran Gambar
-
-Menyimpan file foto di folder `images/profil.jpg`, kemudian menampilkannya menggunakan tag `<img>` dengan atribut `src`, `alt`, `title`, serta mengatur ukuran lebarnya melalui atribut `width`.
-
-```html
 <h3>Foto Profil</h3>
 <img src="images/profil.jpg" width="200" height="200" alt="Foto profil mahasiswa" title="Foto Profil Mahasiswa">
 
-### 6. Hyperlink dan Halaman Baru (`halaman2.html`)
-
-Membuat file baru bernama `halaman2.html` untuk mempraktikkan navigasi:
-
-* **Link Internal:** Berpindah antar file (`index.html` dan `halaman2.html`).
-* **Link Eksternal:** Mengarahkan ke situs luar seperti Google (`https://www.google.com`).
-* **Anchor Link:** Melompat ke bagian tertentu di halaman yang sama menggunakan `#id`.
-
-Potongan kode navigasi:
-
-```html
 <nav>
     <a href="index.html">Dasar HTML / Profil Mahasiswa</a> |
     <a href="halaman2.html">Halaman 2</a> |
-    <a href="[https://www.google.com](https://www.google.com)" target="_blank">Website Eksternal</a>
+    <a href="https://www.google.com" target="_blank">Website Eksternal</a>
 </nav>
 <hr>
 
@@ -122,14 +89,6 @@ Potongan kode navigasi:
 <h2 id="materi">Materi Tambahan</h2>
 <p><a href="#materi">Klik untuk loncat ke judul materi ini</a></p>
 
-### 7. Menambahkan List (Daftar)
-
-Mengelompokkan data menggunakan list:
-
-* `<ul>` (Unordered List): Daftar menggunakan bullet/poin tanpa nomor urut (contoh: daftar keahlian).
-* `<ol>` (Ordered List): Daftar berurutan dengan nomor 1, 2, 3 (contoh: target belajar).
-
-```html
 <h2>Keahlian</h2>
 <ul>
     <li>HTML Dasar</li>
@@ -145,11 +104,6 @@ Mengelompokkan data menggunakan list:
     <li>Menguji halaman pada browser</li>
 </ol>
 
-### 8. Menambahkan Komentar
-
-Menambahkan komentar HTML menggunakan format `<!-- isi komentar -->` sebagai penanda bagian kode agar dokumen rapi dan mudah dibaca saat diedit kembali.
-
-```html
 <!-- Bagian Profil Mahasiswa -->
 <h2>Profil Mahasiswa</h2>
 
@@ -159,13 +113,6 @@ Menambahkan komentar HTML menggunakan format `<!-- isi komentar -->` sebagai pen
     <li>CSS</li>
 </ul>
 
-### 9. Halaman Profil Mahasiswa (Gabungan Semua Elemen)
-
-Menggabungkan semua elemen yang sudah dipelajari menjadi satu halaman `index.html` yang utuh.
-
-Isi lengkap `index.html`:
-
-```html
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -179,7 +126,7 @@ Isi lengkap `index.html`:
     <nav>
         <a href="index.html">Beranda</a> |
         <a href="halaman2.html">Halaman 2</a> |
-        <a href="[https://www.google.com](https://www.google.com)" target="_blank">Website Eksternal (Google)</a>
+        <a href="https://www.google.com" target="_blank">Website Eksternal (Google)</a>
     </nav>
     <hr>
 
@@ -202,9 +149,9 @@ Isi lengkap `index.html`:
 
     <!-- Data Diri -->
     <h2>Data Diri</h2>
-    <p>Nama: <b>Angger Cakra Wicaksono</b></p>
-    <p>NIM: <b>312510054</b></p>
-    <p>Kelas: <b>I253A</b></p>
+    <p>Nama: <b>Noval Aditya Suryawan</b></p>
+    <p>NIM: <b>312510035</b></p>
+    <p>Kelas: <b>I253B</b></p>
     <p>Program Studi: <i>Teknik Informatika</i></p>
     <p>
         Saya sedang mempelajari dasar-dasar pengembangan aplikasi web menggunakan <strong>HTML</strong>.
@@ -242,58 +189,70 @@ Isi lengkap `index.html`:
 </body>
 </html>
 
-## Jawaban Pertanyaan Evaluasi
+Jawaban Pertanyaan Evaluasi
+1. Apa fungsi deklarasi <!DOCTYPE html> pada dokumen HTML?
+Fungsinya untuk memberi tahu browser bahwa dokumen tersebut memakai standar HTML5. Deklarasi ini membuat browser merender halaman dalam standard mode, sehingga tampilan elemen web konsisten dan tidak mengalami masalah layout seperti pada quirks mode.
 
-### 1. Apa fungsi deklarasi `<!DOCTYPE html>` pada dokumen HTML?
-Fungsinya untuk memberi tahu browser bahwa dokumen tersebut memakai standar HTML5. Deklarasi ini membuat browser merender halaman dalam *standard mode*, sehingga tampilan elemen web konsisten dan tidak mengalami masalah layout seperti pada *quirks mode*.
+2. Apa perbedaan antara tag, elemen, dan atribut pada HTML?
+Tag: Tanda awalan dan akhiran yang ditulis di dalam tanda kurung siku, contohnya <p> (tag pembuka) dan </p> (tag penutup).
 
-### 2. Apa perbedaan antara tag, elemen, dan atribut pada HTML?
-* **Tag:** Tanda awalan dan akhiran yang ditulis di dalam tanda kurung siku, contohnya `<p>` (tag pembuka) dan `</p>` (tag penutup).
-* **Elemen:** Kesatuan utuh mulai dari tag pembuka, isi konten teks/elemen lain, sampai tag penutup. Contoh: `<p>Halo Dunia</p>`.
-* **Atribut:** Informasi atau konfigurasi tambahan yang diletakkan di dalam tag pembuka dengan format nama dan nilai, contohnya `href="halaman2.html"` pada tag `<a>` atau `src="gambar.jpg"` pada tag `<img>`.
+Elemen: Kesatuan utuh mulai dari tag pembuka, isi konten teks/elemen lain, sampai tag penutup. Contoh: <p>Halo Dunia</p>.
 
-### 3. Apa perbedaan `<p>` dengan `<br>`? Jelaskan penggunaannya.
-* Tag `<p>` (*paragraph*) digunakan untuk membuat paragraf baru. Tag ini bertipe blok (*block-level*) dan secara otomatis memiliki jarak margin atas dan bawah.
-* Tag `<br>` (*line break*) adalah tag tunggal yang berfungsi memindahkan teks ke baris baru tanpa membuat paragraf baru dan tanpa margin yang lebar.
-* **Penggunaan:** Gunakan `<p>` untuk membedakan paragraf kalimat atau topik artikel, sedangkan `<br>` dipakai saat butuh ganti baris langsung dalam satu paragraf, misalnya pada penulisan alamat atau bait puisi.
+Atribut: Informasi atau konfigurasi tambahan yang diletakkan di dalam tag pembuka dengan format nama dan nilai, contohnya href="halaman2.html" pada tag <a> atau src="gambar.jpg" pada tag <img>.
 
-### 4. Apa fungsi atribut `href` pada tag `<a>`?
-Fungsi `href` (*Hypertext Reference*) adalah menentukan alamat atau URL tujuan ke mana pengguna akan diarahkan saat link tersebut diklik, baik itu file lokal di proyek, alamat web lain di internet, ataupun posisi id tertentu di halaman yang sama.
+3. Apa perbedaan <p> dengan <br>? Jelaskan penggunaannya.
+Tag <p> (paragraph) digunakan untuk membuat paragraf baru. Tag ini bertipe blok (block-level) dan secara otomatis memiliki jarak margin atas dan bawah.
 
-### 5. Apa perbedaan hyperlink ke halaman internal dengan hyperlink ke website eksternal?
-* **Hyperlink internal:** Menghubungkan halaman-halaman yang berada dalam satu folder/proyek web yang sama. Cukup menggunakan path relatif (contoh: `halaman2.html`).
-* **Hyperlink eksternal:** Mengarahkan pengunjung ke website lain di luar domain kita. Harus menyertakan alamat URL lengkap beserta protokolnya (contoh: `https://www.google.com`).
+Tag <br> (line break) adalah tag tunggal yang berfungsi memindahkan teks ke baris baru tanpa membuat paragraf baru dan tanpa margin yang lebar.
 
-### 6. Apa fungsi atribut `src` dan `alt` pada tag `<img>`?
-* `src` (*source*): Menunjukkan path atau lokasi file gambar yang ingin ditampilkan.
-* `alt` (*alternative text*): Menyediakan teks pengganti jika gambar gagal dimuat (misal karena nama file salah atau koneksi bermasalah). Atribut ini juga membantu aksesibilitas bagi pengguna tunanetra yang memakai *screen reader*.
+Penggunaan: Gunakan <p> untuk membedakan paragraf kalimat atau topik artikel, sedangkan <br> dipakai saat butuh ganti baris langsung dalam satu paragraf, misalnya pada penulisan alamat atau bait puisi.
 
-### 7. Apa perbedaan penggunaan `<ul>` dan `<ol>`?
-* `<ul>` (*unordered list*) dipakai untuk daftar yang urutannya tidak terikat nomor urut atau hierarki tertentu. Ditampilkan dengan bullet point (contoh: daftar hobi, keahlian).
-* `<ol>` (*ordered list*) dipakai untuk daftar yang urutan penomorannya penting (1, 2, 3...). Cocok untuk tahapan kerja, urutan langkah tutorial, atau ranking.
+4. Apa fungsi atribut href pada tag <a>?
+Fungsi href (Hypertext Reference) adalah menentukan alamat atau URL tujuan ke mana pengguna akan diarahkan saat link tersebut diklik, baik itu file lokal di proyek, alamat web lain di internet, ataupun posisi id tertentu di halaman yang sama.
 
-### 8. Apa yang terjadi jika path gambar pada atribut `src` salah?
-Gambar tidak akan muncul di halaman web dan browser akan menampilkan ikon gambar rusak (*broken image*). Selain itu, teks yang ditulis pada atribut `alt` akan muncul sebagai pengganti gambar tersebut, dan pada browser console akan muncul error `404 Not Found`.
+5. Apa perbedaan hyperlink ke halaman internal dengan hyperlink ke website eksternal?
+Hyperlink internal: Menghubungkan halaman-halaman yang berada dalam satu folder/proyek web yang sama. Cukup menggunakan path relatif (contoh: halaman2.html).
 
-### 9. Mengapa struktur heading `<h1>` sampai `<h6>` perlu digunakan secara terstruktur?
-Supaya susunan konten halaman rapi dan memiliki hierarki informasi yang jelas dari topik utama (`<h1>`) sampai sub-topik (`<h2>` hingga `<h6>`). Struktur yang rapi juga sangat penting untuk membantu mesin pencari (SEO) memahami poin penting artikel serta mempermudah pengguna alat bantu *screen reader* saat menavigasi halaman.
+Hyperlink eksternal: Mengarahkan pengunjung ke website lain di luar domain kita. Harus menyertakan alamat URL lengkap beserta protokolnya (contoh: [https://www.google.com](https://www.google.com)).
 
-### 10. Apa fungsi komentar `<!-- ... -->` dalam kode HTML?
+6. Apa fungsi atribut src dan alt pada tag <img>?
+src (source): Menunjukkan path atau lokasi file gambar yang ingin ditampilkan.
+
+alt (alternative text): Menyediakan teks pengganti jika gambar gagal dimuat (misal karena nama file salah atau koneksi bermasalah). Atribut ini juga membantu aksesibilitas bagi pengguna tunanetra yang memakai screen reader.
+
+7. Apa perbedaan penggunaan <ul> dan <ol>?
+<ul> (unordered list) dipakai untuk daftar yang urutannya tidak terikat nomor urut atau hierarki tertentu. Ditampilkan dengan bullet point (contoh: daftar hobi, keahlian).
+
+<ol> (ordered list) dipakai untuk daftar yang urutan penomorannya penting (1, 2, 3...). Cocok untuk tahapan kerja, urutan langkah tutorial, atau ranking.
+
+8. Apa yang terjadi jika path gambar pada atribut src salah?
+Gambar tidak akan muncul di halaman web dan browser akan menampilkan ikon gambar rusak (broken image). Selain itu, teks yang ditulis pada atribut alt akan muncul sebagai pengganti gambar tersebut, dan pada browser console akan muncul error 404 Not Found.
+
+9. Mengapa struktur heading <h1> sampai <h6> perlu digunakan secara terstruktur?
+Supaya susunan konten halaman rapi dan memiliki hierarki informasi yang jelas dari topik utama (<h1>) sampai sub-topik (<h2> hingga <h6>). Struktur yang rapi juga sangat penting untuk membantu mesin pencari (SEO) memahami poin penting artikel serta mempermudah pengguna alat bantu screen reader saat menavigasi halaman.
+
+10. Apa fungsi komentar <!-- ... --> dalam kode HTML?
 Komentar digunakan untuk menulis catatan dokumentasi atau penanda batas antar bagian kode tanpa ikut ditampilkan oleh browser ke pengguna. Komentar juga berguna saat proses debugging untuk mematikan sementara baris kode tertentu tanpa perlu menghapusnya.
 
----
-
-## Checklist Sebelum Dikumpulkan
-
+Checklist Sebelum Dikumpulkan
 Berdasarkan checklist pada modul:
 
-- [x] Struktur HTML sudah lengkap.
-- [x] Heading dan paragraf sudah digunakan.
-- [x] Pemformatan teks sudah dicoba.
-- [x] Gambar tampil dengan benar.
-- [x] Hyperlink internal dan eksternal dapat digunakan.
-- [x] Unordered list dan ordered list sudah dibuat.
-- [x] Komentar HTML sudah dicoba.
-- [x] Screenshot setiap tahap sudah tersedia (file `1.png` sampai `8.png` di folder `screenshots/`).
-- [x] README.md sudah menjelaskan proses praktikum.
-- [x] Repository sudah dibuat dan siap dikumpulkan.
+[x] Struktur HTML sudah lengkap.
+
+[x] Heading dan paragraf sudah digunakan.
+
+[x] Pemformatan teks sudah dicoba.
+
+[x] Gambar tampil dengan benar.
+
+[x] Hyperlink internal dan eksternal dapat digunakan.
+
+[x] Unordered list dan ordered list sudah dibuat.
+
+[x] Komentar HTML sudah dicoba.
+
+[x] Screenshot setiap tahap sudah tersedia (file 1.png sampai 8.png di folder screenshots/).
+
+[x] README.md sudah menjelaskan proses praktikum.
+
+[x] Repository sudah dibuat dan siap dikumpulkan.
