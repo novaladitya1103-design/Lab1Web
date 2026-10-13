@@ -48,7 +48,7 @@ Lab1Web/
 ## Langkah Pengerjaan Selanjutnya
 ## 1. Sturktur Data HTML 
 Membuat file index.html dengan kerangka dokumen HTML5: deklarasi <!DOCTYPE html>, tag <html>, <head> untuk judul tab browser, dan <body> untuk tempat konten diletakkan.
-
+`
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -58,11 +58,12 @@ Membuat file index.html dengan kerangka dokumen HTML5: deklarasi <!DOCTYPE html>
 <body>
 </body>
 </html>
-
+`
 ![Screenshot Hasil](./screenshots/1.png)
 
 ## 2. Menambahkan Heading dan Paragraf
 Menambahkan judul utama dengan <h1>, subjudul dengan <h2>, serta teks paragraf menggunakan tag <p>.
+
 <!-- Judul utama dan subjudul -->
 <h1>Belajar Dasar HTML</h1>
 <h2>Paragraf pada HTML</h2>
