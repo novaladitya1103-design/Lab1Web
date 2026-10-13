@@ -44,4 +44,19 @@ Lab1Web/
 │   ├── 7.png
 │   └── 8.png
 └── README.md
-
+```
+## Langkah Pengerjaan Selanjutnya
+## 1. Sturktur Data HTML 
+Membuat file index.html dengan kerangka dokumen HTML5: deklarasi <!DOCTYPE html>, tag <html>, <head> untuk judul tab browser, dan <body> untuk tempat konten diletakkan.
+```
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Praktikum HTML Dasar</title>
+</head>
+<body>
+</body>
+</html>
+```
+![Screenshot Hasil](./screenshots/1.png)
