@@ -28,7 +28,7 @@ Simpan semua file tangkapan layar (screenshot) di dalam folder `screenshots/` de
 
 ## Struktur Folder
 
-## Text
+```## Text
 Lab1Web/
 ├── index.html
 ├── halaman2.html
