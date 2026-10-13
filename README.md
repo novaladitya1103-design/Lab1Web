@@ -105,6 +105,7 @@ Link Internal: Berpindah antar file (index.html dan halaman2.html).
 Link Eksternal: Mengarahkan ke situs luar seperti Google (https://www.google.com).
 Anchor Link: Melompat ke bagian tertentu di halaman yang sama menggunakan #id.
 Potongan kode navigasi:
+
 <nav>
     <a href="index.html">Dasar HTML / Profil Mahasiswa</a> |
     <a href="halaman2.html">Halaman 2</a> |
@@ -233,4 +234,3 @@ Isi lengkap index.html:
 </html>
 
 ![Screenshot Hasil](./screenshots/profil.png)
-```
