@@ -43,7 +43,7 @@ Lab1Web/
 │   ├── 6.png
 │   ├── 7.png
 │   └── 8.png
-└── README.md
+└── README.md```
 
 <!DOCTYPE html>
 <html lang="id">
